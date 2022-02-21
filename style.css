@@ -3,50 +3,33 @@
   display: flex;
   flex-wrap: nowrap;
   background-color: DodgerBlue;
+  border: solid black;
+  border-width: 2px;
 }
 
 .flex-container > div {
   background-color: #f1f1f1;
   width: 100px;
-  margin: 10px;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
-}
-html, body {
-    height: 100%;
-    margin: 0;
-}
-.content {
-padding: 20px;
-min-height: 100%;
-margin: 0 auto -50px;
-}
-.footer,
-.push {
-height: 50px;
+  border: solid black;
+  border-width: .5px;
 }
 
-
-
-
-
-
-* {
-box-sizing: border-box;
+.description_holder {
+  text-align: center;
+  margin-top: 10%;
 }
-body {
-font: 16px Sans-Serif;
-}
-h1 {
-margin: 0 0 20px 0;
-}
-p {
-margin: 20px 0 0 0;
-}
+
 footer {
-background: #42A5F5;
-color: white;
-line-height: 50px;
-padding: 0 20px;
+  text-align: center;
+  padding: 3px;
+  background-color: blanchedalmond;
+  position:absolute;
+  bottom:0;
+  width:100%;
 }
